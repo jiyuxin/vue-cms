@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "webpack-dev-server --mode development --open --port 3000 --hot --contentBase src"
+    "dev": "webpack-dev-server --mode development --open --port 3000 --hot"
   },
   "author": "",
   "license": "ISC",
@@ -24,6 +24,7 @@
     "url-loader": "^1.1.2",
     "vue": "^2.5.17",
     "vue-loader": "^15.4.2",
+    "vue-router": "^3.0.1",
     "vue-template-compiler": "^2.5.17",
     "webpack": "^4.20.2",
     "webpack-cli": "^3.1.2",
@@ -32,6 +33,6 @@
   "dependencies": {
     "jquery": "^3.3.1",
     "mint-ui": "^2.2.13",
-    "vue-router": "^3.0.1"
+    "vue-resource": "^1.5.1"
   }
 }
